@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    
+    <title>Juego Tic Tac Toe</title>
+</head>
+<body>
+    <main class="main-container">
+            <section class="title">
+                <h1>Tic Tac Toe</h1>
+            </section>
+            <section class="display">
+                <span class="display-player playerX"></span>
+            </section>
+            <section class="container">
+                <div id="0" class="box top left"></div>
+                <div id="1" class="box top"></div>
+                <div id="2" class="box top right"></div>
+                <div id="3" class="box left"></div>
+                <div id="4" class="box"></div>
+                <div id="5" class="box right"></div>
+                <div id="6" class="box bottom left"></div>
+                <div id="7" class="box bottom"></div>
+                <div id="8" class="box bottom right"></div>
+            </section>
+            <section class="display announcer hide">
+                <div class="text"></div>
+            </section>
+            <section class="controls">
+                <button id="reset" onclick="startGame()">Reiniciar</button>
+            </section>
+    </main> 
+    <script src="js/script.js"></script>
+</body>
+</html>
